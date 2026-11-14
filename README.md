@@ -1,3 +1,36 @@
+# Kaptajn Kaper i Kattegat – Remastered Edition 2026
+
+**▶ Spil her: https://ronnikn.github.io/kaptajnkaper/**
+
+En grafisk opdateret udgave af P.O. Frederiksens klassiske danske piratspil fra 1985 – til moderne skærme, mobil og touch. Originale regler, tekster og beregninger er bevaret.
+
+Spillet kan installeres som app på telefonen: Åbn linket i Chrome (Android) eller Safari (iPhone) og vælg *Installer app* / *Føj til hjemmeskærm*.
+
+## Hvad er ændret
+- Spillet er overført fra GW-BASIC til én HTML-fil ([`index.html`](index.html)), der kører i browseren.
+- Ny grafik og betjening med touch, swipe og knapper, tilpasset både mobil og stor skærm.
+- Den originale 1985-grafik (CGA) er gemt i spillet som et påskeæg: tryk 10 gange på "1985" på startsiden.
+- Spillets logik og tekster følger den originale kildekode.
+
+## Filer
+| Fil | Indhold |
+|---|---|
+| `index.html` | Spillet |
+| `manifest.json`, `sw.js`, `icon-*.png`, `apple-touch-icon.png` | Gør det muligt at installere spillet som app og starte det offline |
+| [`original/`](original) | Den originale kildekode fra 1985 (GW-BASIC), uændret |
+| `LICENSE` | GNU General Public License v3.0 |
+
+## Ophav og licens
+- Originalt spil: **Peter Ole Frederiksen** (1985).
+- Kildekoden er udgivet af **Det Kgl. Bibliotek** i samarbejde med Jan Thorhauge Frederiksen og Morten Frederiksen: https://github.com/kb-dk/KaptajnKaper
+- Grafisk modernisering og mobiltilpasning: **Ronni K. Nielsen**, 2026.
+
+Både originalen og denne udgave er udgivet under **GNU General Public License v3.0**, se [LICENSE](LICENSE).
+
+---
+
+*Herunder følger den originale README fra Det Kgl. Bibliotek. Filerne, der nævnes, ligger i mappen [`original`](original).*
+
 # KaptajnKaper
 Source Code of Peter Ole Frederiksens original Danish pirate game
 
