@@ -1,0 +1,17 @@
+{
+  "name": "Kaptajn Kaper i Kattegat",
+  "short_name": "Kaptajn Kaper",
+  "description": "Remastered Edition 2026 af det danske piratspil fra 1985.",
+  "lang": "da",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#08141f",
+  "theme_color": "#08141f",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
